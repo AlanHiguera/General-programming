@@ -1,0 +1,70 @@
+#include<iostream>
+using namespace std;
+
+void espacio(int i, int n){
+    int aux = 0;
+    while(aux<(n-i)){
+        cout<<" ";
+        aux += 1;
+    }
+}
+
+void imprime(int i){
+    int aux = 1;
+    while(aux<=i and i%2!=0){
+        cout<<"*";
+        aux += 1;
+    }
+}
+
+void espacioReverso(int i2, int n2){
+    int aux = 0, cantespacios = 0;
+    cantespacios = n2-(n2-i2);
+    while(aux<cantespacios){
+        cout<<" ";
+        aux += 1;
+    }
+}
+void imprimeReverso(int i){
+    int aux = 0;
+    while(aux<=i+1){
+        cout<<"*";
+        aux += 1;
+    }
+}
+ int main(){
+    int i = 0, n = 0, i2 = 1, n2 = 0;
+    cout<<"Cuantas lineas debe ocupar el rombo? "<<endl;
+    cin>>n;
+    n2 = n;
+    while(i<=n){
+        if(i%2!=0){
+            espacio(i,n);
+        }
+        imprime(i);
+        if(i%2!=0){
+            cout<<"\n";
+        }
+        else if(i%2==0 and i!=0){
+            n = n+1;
+        }
+        i += 1;
+    }
+    i = i-2;
+    i2 = 0;
+    while(i>=0){
+        if(i%2!=0){
+            espacioReverso(i2,n2);
+        }
+        imprime(i);
+        if(i%2!=0){
+            cout<<"\n";
+        }
+        else if(i%2==0 and i!=0){
+            i2 = i2+1;
+        }
+        i -= 1;
+    }
+
+    return 0;
+ }
