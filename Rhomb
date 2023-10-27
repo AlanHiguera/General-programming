@@ -34,7 +34,7 @@ void imprimeReverso(int i){
 }
  int main(){
     int i = 0, n = 0, i2 = 1, n2 = 0;
-    cout<<"Cuantas lineas debe ocupar el rombo? "<<endl;
+    cout<<"Cuantas lineas debe ocupar la mitad superior del rombo? "<<endl;
     cin>>n;
     n2 = n;
     while(i<=n){
