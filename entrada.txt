@@ -1,0 +1,11 @@
+$(p \wedge q \wedge s \rightarrow p) \wedge (q \wedge r \rightarrow p) \wedge (p \wedge s \rightarrow s)$
+$(p \wedge q \wedge s \rightarrow \bot) \wedge (q \wedge r \rightarrow p) \wedge (\top \rightarrow s)$
+$(p2 \wedge p3 \wedge p5 \rightarrow p13) \wedge (\top \rightarrow p5) \wedge (p5 \wedge p11 \rightarrow \bot)$
+$(\top \rightarrow \bot)$
+$(\top \rightarrow p) \wedge (p \rightarrow \bot)$
+$(\top \rightarrow p) \wedge (p \rightarrow q) \wedge (q \rightarrow \bot)$
+$(\top \rightarrow p1) \wedge (p1 \rightarrow q2) \wedge (q2 \wedge p1 \rightarrow \bot)$
+$(\top \rightarrow p1) \wedge (p1 \wedge p3 \rightarrow q2) \wedge (q2 \wedge p1 \wedge p2 \rightarrow \bot)$
+$(\top \rightarrow p1) \wedge (p1 \wedge p3 \rightarrow q2) \wedge (p1 \wedge p3 \wedge q2 \rightarrow \bot) \wedge (\top \rightarrow p3)$
+$(\top \rightarrow p1) \wedge (p1 \wedge p3 \rightarrow q2) \wedge (p1 \wedge p3 \wedge q2 \wedge p4 \rightarrow \bot) \wedge (\top \rightarrow p3) \wedge (p3 \rightarrow p4)$
+$(\top \rightarrow p1) \wedge (\p1\rightarrow \bot)$
