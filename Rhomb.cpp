@@ -1,4 +1,5 @@
 #include<iostream>
+//Imprime un Rombo segun la cantidad de lineas que desees que ocupe
 using namespace std;
 
 void espacio(int i, int n){
