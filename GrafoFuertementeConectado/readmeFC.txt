@@ -1,4 +1,5 @@
 /******Modo De Ejecución********/
+obj: Determinar si un grafo es fuertemente conectado(desde cualquier nodo se puede alcanzar todos los demás)
 
 gcc grafoFCparalelofinal.c -o  t1.exe
 ./t1.exe 4 -H -V < data.txt
